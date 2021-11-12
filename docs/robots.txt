@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: http://logoshot.github.io/sitemap.xml
