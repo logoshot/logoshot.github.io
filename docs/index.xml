@@ -6,7 +6,16 @@
     <description>Recent content on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 12 Nov 2021 23:56:40 +0800</lastBuildDate><atom:link href="http://logoshot.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Nov 2021 21:26:18 +0800</lastBuildDate><atom:link href="http://logoshot.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mit6.s081 Lab 2021 Pgtbl</title>
+      <link>http://logoshot.github.io/post/os/xv6-lab-2021-pgtbl/</link>
+      <pubDate>Sat, 13 Nov 2021 21:26:18 +0800</pubDate>
+      
+      <guid>http://logoshot.github.io/post/os/xv6-lab-2021-pgtbl/</guid>
+      <description>mit6s081的第三个lab，非常考验对于页表的理解，难度不小。从个人体验来讲，和前两个lab相比，难度上了一个档次。当然，这可能也源于我</description>
+    </item>
+    
     <item>
       <title>大道至简</title>
       <link>http://logoshot.github.io/post/concise/</link>

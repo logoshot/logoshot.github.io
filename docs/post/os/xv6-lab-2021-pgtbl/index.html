@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>大道至简 - Even - A super concise theme for Hugo</title>
+  <title>mit6.s081 Lab 2021 Pgtbl - Even - A super concise theme for Hugo</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="logoshot" /><meta name="description" content="尝试了很多次搭博客，这是最成功的一次。究其原因，这次的想法很简单、很纯粹，因此，这次选择的主题也很简单，很纯粹。 开始的开始 最开始有想拥有一个" /><meta name="keywords" content="Hugo, theme, even" />
+<meta name="author" content="logoshot" /><meta name="description" content="mit6s081的第三个lab，非常考验对于页表的理解，难度不小。从个人体验来讲，和前两个lab相比，难度上了一个档次。当然，这可能也源于我" /><meta name="keywords" content="Hugo, theme, even" />
 
 
 
@@ -26,7 +26,7 @@
 <meta name="generator" content="Hugo 0.89.2 with theme even" />
 
 
-<link rel="canonical" href="http://logoshot.github.io/post/concise/" />
+<link rel="canonical" href="http://logoshot.github.io/post/os/xv6-lab-2021-pgtbl/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -39,20 +39,20 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="大道至简" />
-<meta property="og:description" content="尝试了很多次搭博客，这是最成功的一次。究其原因，这次的想法很简单、很纯粹，因此，这次选择的主题也很简单，很纯粹。 开始的开始 最开始有想拥有一个" />
+<meta property="og:title" content="mit6.s081 Lab 2021 Pgtbl" />
+<meta property="og:description" content="mit6s081的第三个lab，非常考验对于页表的理解，难度不小。从个人体验来讲，和前两个lab相比，难度上了一个档次。当然，这可能也源于我" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://logoshot.github.io/post/concise/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2021-11-12T23:56:40+08:00" />
-<meta property="article:modified_time" content="2021-11-12T23:56:40+08:00" />
+<meta property="og:url" content="http://logoshot.github.io/post/os/xv6-lab-2021-pgtbl/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-11-13T21:26:18+08:00" />
+<meta property="article:modified_time" content="2021-11-13T21:26:18+08:00" />
 
-<meta itemprop="name" content="大道至简">
-<meta itemprop="description" content="尝试了很多次搭博客，这是最成功的一次。究其原因，这次的想法很简单、很纯粹，因此，这次选择的主题也很简单，很纯粹。 开始的开始 最开始有想拥有一个"><meta itemprop="datePublished" content="2021-11-12T23:56:40+08:00" />
-<meta itemprop="dateModified" content="2021-11-12T23:56:40+08:00" />
-<meta itemprop="wordCount" content="995">
+<meta itemprop="name" content="mit6.s081 Lab 2021 Pgtbl">
+<meta itemprop="description" content="mit6s081的第三个lab，非常考验对于页表的理解，难度不小。从个人体验来讲，和前两个lab相比，难度上了一个档次。当然，这可能也源于我"><meta itemprop="datePublished" content="2021-11-13T21:26:18+08:00" />
+<meta itemprop="dateModified" content="2021-11-13T21:26:18+08:00" />
+<meta itemprop="wordCount" content="886">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="大道至简"/>
-<meta name="twitter:description" content="尝试了很多次搭博客，这是最成功的一次。究其原因，这次的想法很简单、很纯粹，因此，这次选择的主题也很简单，很纯粹。 开始的开始 最开始有想拥有一个"/>
+<meta name="twitter:title" content="mit6.s081 Lab 2021 Pgtbl"/>
+<meta name="twitter:description" content="mit6s081的第三个lab，非常考验对于页表的理解，难度不小。从个人体验来讲，和前两个lab相比，难度上了一个档次。当然，这可能也源于我"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -125,12 +125,12 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">大道至简</h1>
+      <h1 class="post-title">mit6.s081 Lab 2021 Pgtbl</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2021-11-12 </span>
+        <span class="post-time"> 2021-11-13 </span>
         
-          <span class="more-meta"> 995 words </span>
+          <span class="more-meta"> 886 words </span>
           <span class="more-meta"> 2 mins read </span>
         
       </div>
@@ -139,42 +139,19 @@
     <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">Contents</h2>
   <div class="post-toc-content always-active">
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#开始的开始">开始的开始</a></li>
-    <li><a href="#困难重重">困难重重</a></li>
-    <li><a href="#再次尝试">再次尝试</a></li>
-    <li><a href="#东山再起">东山再起</a></li>
-  </ul>
-</nav>
+    <nav id="TableOfContents"></nav>
   </div>
 </div>
     <div class="post-content">
-      <p>尝试了很多次搭博客，这是最成功的一次。究其原因，这次的想法很简单、很纯粹，因此，这次选择的主题也很简单，很纯粹。</p>
-<h1 id="开始的开始">开始的开始</h1>
-<p>最开始有想拥有一个属于自己的网站应该是2020年疫情期间。最直接的诱导因素是当时一下获得了两个服务器，一个牛客网
-赠送的华为云的服务器，一个是自己买的阿里云的学生服务器。取得这两个服务器的时候，并没有完全想好要用它们来做些什么，
-后面看到一些技术大佬做的很炫酷的个人博客，有些心动，就想给自己也来一个。</p>
-<h1 id="困难重重">困难重重</h1>
-<p>心动归心动，真正开始实践的时候实在是困难重重。</p>
-<p>最开始倒腾服务器的时候，我用了一个小时才连上了自己的服务器，连上服务器后又花了几个小时才习惯操纵服务器，原来就和
-用命令行操作自己电脑是一个感觉。</p>
-<p>而后就是选择博客平台的环节，那时候野心很大，觉得静态博客满足不了自己各种自定义的需求，毫不犹豫的选择了大而全的
-wordpress。接着就是LNMP（当时不知为何就是觉得NGINX听起来比Apache牛b），安装配置一套下来，完全是跟着别人的技术
-博客走，对每条配置的前因后果并不了解，一旦哪里出了点错，改起来就十分费劲。</p>
-<p>安装好了各类运行必须程序，终于让博客运行起来了，打开浏览器，用ip去访问自己的网站，加载出来的那一刻确是欣喜若狂。
-可是，很快我就陷入了新的困难，魔改主题。既然是要做一个自己的博客，当然会希望有自己的设计，自己的规划在里头，而不是
-完全照搬别人的主题。而那时，我对于wordpress的整体框架结构都还完全不了解，对于php语言也不熟悉，库函数有哪些更是一无所知
-执行自己的想法根本是痴人说梦。在徒劳的学习了很多次wordpress的文档之后计划就搁浅了。</p>
-<h1 id="再次尝试">再次尝试</h1>
-<p>再次激起搭博客的欲望是在2021年初的时候，机缘巧合间看到了几个情侣博客，当真是甜蜜溢出屏幕，看了让人羡慕不已。恰逢
-彼时自己也处在甜蜜期中，便又起了做网站的心思。这一次的愿景更远大，设想更复杂，最后的结果无可避免自然是失败。</p>
-<h1 id="东山再起">东山再起</h1>
-<p>总结一下前面失败的原因，无非是自己给自己画了一个太大的饼，恰逢身上还有点完美主义，就想一次把饼做的又大又圆，结果
-适得其反，什么也没做成。
-这次尝试，与以往颇为不同，从产生想法到落地实践并部署成功，不过短短五个小时。效率之高我自己都感到惊讶，也正是如此，
-我隐隐感到这可能是个成功的开始。</p>
-<p>最后想在啰嗦一下，写作表达一直是我的弱项，这个博客或许也将承载着我写作能力的变化。</p>
+      <p>mit6s081的第三个lab，非常考验对于页表的理解，难度不小。从个人体验来讲，和前两个lab相比，难度上了一个档次。当然，这可能也源于我对虚存机制的理解还不够深入。而且，我虽然通过了lab的测试，但是心中仍存有诸多疑惑。</p>
+<p>这里注意一下，本文针对的是2021版的课程实验，<a href="https://pdos.csail.mit.edu/6.828/2021/labs/pgtbl.html">2021版</a>的pgtbl实验进行了改动，与<a href="https://pdos.csail.mit.edu/6.828/2020/labs/pgtbl.html">2020版</a>不一样。</p>
+<p>前两个小实验较为简单，根据实验给出hints，可以比较容易的做出，这里不再赘述。</p>
+<p>第三个小实验是要检测哪些页被读写过了。检测的原理是基于在risc-v中，被读写过的页会在页表中被标记上PTE_A标志位。因此只需要我们只需要遍历给定的页，对于每一个给定的页，根据页表的规则，找到相应表项，看看PTE_A标志位即可。</p>
+<p>核心思路看起来是蛮简单的，但是到实现的时候就会遇到不少麻烦。</p>
+<p>第一，我一开始就疑惑于这个页对应的页表是哪一个页表。根据直觉，应该是当前进程的页表，也就是可以通过<code>myproc()-&gt;pagetable</code>访问到，实际上也确实是。但我总感觉哪里不踏实。</p>
+<p>第二，题目的提示中特意提到，我们可以将检测的结果先保存在一个临时变量中，然后再使用<code>copyout</code>拷贝到用户的变量中。我一开始以为，题目给出这个提示是说明内核空间访问用户空间的变量存在问题，因此也需要把存页地址的数组<code>copyin</code>到内核，但是转念一想，如果内核空间不能访问用户空间的变量，那么<code>copyin</code>也是无法进行的。在实验成功后，我尝试直接对用户空间变量进行操作，发现会产生kerneltrap的panic，而且是在修改变量值的那一步，所以可以推断出内核不能修改用户空间的变量？</p>
+<p>第三，<code>pgtbltest.c</code>中的测试<code>pgaccess()</code>的方式也让人有些疑惑。它是声明了大小为
+$32*PGSIZE$的数组，而后改动数组中的值，就相当于读写了某个页。因此我自认为合理的推测<code>buf[0]</code>到<code>buf[PGSIZE-1]</code>属于第一个页，<code>buf[PGSIZE]</code>到<code>buf[PGSIZE*2-1]</code>属于第二个页，然而，经过测试发现并不是这样。<code>buf[4079]</code>属于第一页，<code>buf[4080]</code>属于第二页。？？？</p>
 
     </div>
 
@@ -186,7 +163,7 @@ wordpress。接着就是LNMP（当时不知为何就是觉得NGINX听起来比Ap
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
     <span class="item-content">
-        2021-11-12
+        2021-11-13
         
     </span>
   </p>
@@ -196,13 +173,9 @@ wordpress。接着就是LNMP（当时不知为何就是觉得NGINX听起来比Ap
 <footer class="post-footer">
       
       <nav class="post-nav">
-        <a class="prev" href="/post/os/xv6-lab-2021-pgtbl/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">mit6.s081 Lab 2021 Pgtbl</span>
-            <span class="prev-text nav-mobile">Prev</span>
-          </a>
-        <a class="next" href="/post/os/introduction/">
-            <span class="next-text nav-default">Introduction</span>
+        
+        <a class="next" href="/post/concise/">
+            <span class="next-text nav-default">大道至简</span>
             <span class="next-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>
@@ -212,7 +185,7 @@ wordpress。接着就是LNMP（当时不知为何就是觉得NGINX听起来比Ap
         </div>
         
 
-  <span id="/post/concise/" class="leancloud_visitors" data-flag-title="大道至简">
+  <span id="/post/os/xv6-lab-2021-pgtbl/" class="leancloud_visitors" data-flag-title="mit6.s081 Lab 2021 Pgtbl">
 		<span class="post-meta-item-text">文章阅读量 </span>
 		<span class="leancloud-visitors-count">0</span>
 		<p></p>
