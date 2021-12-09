@@ -9,7 +9,28 @@ from [cf1612E's solution](https://codeforces.com/contest/1612/problem/E)
 
 ``` rust
 #![allow(dead_code, unused_macros, unused_imports)]
-use std::{cell::{Cell, RefCell, UnsafeCell}, cmp::{Ordering, Reverse, max, min}, collections::{BTreeMap, BTreeSet, BinaryHeap, HashMap, HashSet, VecDeque, hash_map::{DefaultHasher, RandomState}}, error::Error, fmt::{Display, Write as FmtWrite}, hash::{BuildHasher, Hash, Hasher}, io::{BufWriter, Read, Stdin, Stdout, Write}, iter::{FromIterator, Peekable}, mem::swap, ops::*, process::exit, rc::Rc, str::{FromStr, from_utf8_unchecked}, time::{Duration, Instant}};
+use std::{
+    cell::{Cell, RefCell, UnsafeCell}, 
+    cmp::{Ordering, Reverse, max, min}, 
+    collections::{
+        BTreeMap, 
+        BTreeSet, 
+        BinaryHeap, 
+        HashMap, 
+        HashSet, 
+        VecDeque, 
+        hash_map::{DefaultHasher, RandomState}},
+    error::Error, 
+    fmt::{Display, Write as FmtWrite}, 
+    hash::{BuildHasher, Hash, Hasher}, 
+    io::{BufWriter, Read, Stdin, Stdout, Write}, 
+    iter::{FromIterator, Peekable}, 
+    mem::swap, 
+    ops::*, 
+    process::exit, 
+    rc::Rc, 
+    str::{FromStr, from_utf8_unchecked}, 
+    time::{Duration, Instant}};
  
 const IO_BUF_SIZE: usize = 1 << 16;
 type Input = Scanner<Stdin>;
