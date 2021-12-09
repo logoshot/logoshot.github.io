@@ -1,5 +1,5 @@
 ---
-title: "Good Acm Rust Example"
+title: "An Rust Example in codeforces"
 date: 2021-12-08T22:49:30+08:00
 draft: true
 ---
