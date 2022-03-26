@@ -3,14 +3,21 @@
   
   <url>
     <loc>http://logoshot.github.io/</loc>
-    <lastmod>2022-03-24T12:31:43+08:00</lastmod>
+    <lastmod>2022-03-25T18:21:58+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://logoshot.github.io/post/interesting-questions/</loc>
+    <lastmod>2022-03-25T18:21:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://logoshot.github.io/post/</loc>
-    <lastmod>2022-03-24T12:31:43+08:00</lastmod>
+    <lastmod>2022-03-25T18:21:58+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

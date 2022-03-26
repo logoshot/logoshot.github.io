@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 24 Mar 2022 12:31:43 +0800</lastBuildDate><atom:link href="http://logoshot.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Mar 2022 18:21:58 +0800</lastBuildDate><atom:link href="http://logoshot.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Interesting Questions</title>
+      <link>http://logoshot.github.io/post/interesting-questions/</link>
+      <pubDate>Fri, 25 Mar 2022 18:21:58 +0800</pubDate>
+      
+      <guid>http://logoshot.github.io/post/interesting-questions/</guid>
+      <description>一些有趣的问题 脏话出现在人类文明的什么时期</description>
+    </item>
+    
     <item>
       <title>The Book of Shaders</title>
       <link>http://logoshot.github.io/post/the-book-of-shaders/</link>
