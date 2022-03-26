@@ -65,4 +65,4 @@ float shape=circle(abs((st-vec2(.5,.0))*vec2(1.,1.)),0.1);
 ```
 ![circle.png](https://blog-pictures-2022.oss-accelerate.aliyuncs.com/img/picGo-img/20220324glslcircle.png)
 
-<img src="https://blog-pictures-2022.oss-accelerate.aliyuncs.com/img/picGo-img/20220324glslcircle.png" style="zoom: 50%" align="center">
+<img src="https://blog-pictures-2022.oss-accelerate.aliyuncs.com/img/picGo-img/20220324glslcircle.png" style="zoom: 50%" align="middle">
