@@ -1,7 +1,7 @@
 ---
 title: "Hex Game Ai"
 date: 2022-11-25T19:54:28+08:00
-draft: true
+draft: false
 ---
 
 > 好久好久没有写blog了，最近很认真的在研究hex的ai，研究mcts，想要记录一下自己曾经的努力，不然一年到头总觉得一事无成。

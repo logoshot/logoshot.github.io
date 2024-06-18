@@ -1,7 +1,7 @@
 ---
 title: "Introduction"
 date: 2021-11-12T23:00:22+08:00
-draft: true
+draft: false
 ---
 
 这个部分是关于操作系统的。
